@@ -1,0 +1,58 @@
+html{
+    background-image: url(https://t4.ftcdn.net/jpg/07/27/89/23/360_F_727892321_sJkNLY2BFPu1IbkdC76IYy2J7iJlNuNK.jpg);
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+img{
+    position: absolute;
+    top: 130px;
+    left: 70px;
+    width: 800px;
+    height: 800px;
+    border-style: solid;
+    border-radius: 6px;
+    border-color: white;
+}
+h1 {
+    position: absolute;
+    left: 417px;
+    font-size: 3.5em;
+    text-transform: uppercase;
+    color: white;
+}
+.definition{
+    font-size: larger;
+    text-align: justify;
+    position: absolute;
+    top: 152px;
+    left: 930px;
+    background-color: #ffffff;
+    width: 900px;
+    height: 530px;
+    margin-top: 1%;
+    padding: 15px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #000000;
+}
+button{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 770px;
+    left: 1380px;
+    color: rgb(14, 13, 13);
+    text-align: center;
+    display: inline-block;
+    border-style: solid;
+    border-radius: 3px;
+    border-color: #000000;
+    background-color: #ffffff;
+    padding: 5px;
+    cursor: pointer;
+
+}

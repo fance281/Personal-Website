@@ -1,0 +1,314 @@
+/* General Styles */
+html{
+    background-image: url(https://t4.ftcdn.net/jpg/07/27/89/23/360_F_727892321_sJkNLY2BFPu1IbkdC76IYy2J7iJlNuNK.jpg);
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+img{
+    border-style: solid;
+    border-radius: 15px;
+    border-color: #000000; 
+}
+.navbar{
+    display: inline;
+    text-align: center;
+    font-size: larger;
+    margin-top: 10px;
+    padding: 0px;
+    margin-bottom: 1px;
+}
+img.ab{
+    width: 100px;
+    height: 150px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: #000000;  
+    transition: 0.5s;
+}
+img.ab:hover{
+    width: 125px;
+    height: 175px;
+}
+
+.abt{
+    text-indent: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    padding: 15px;
+    color: #000000;
+    display: inline-block;
+    text-align: center;
+}
+.footer{
+    position: absolute;
+    top: 1270px;
+    color: #ffffff;
+}
+.skills{
+    position: absolute;
+    top: 152px;
+    left: 953px;
+    background-color: #ffffff;
+    width: 585px;
+    height: 550px;
+    margin-top: 2px;
+    padding: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #000000;
+}
+.about{
+    position: absolute;
+    top: 152px;
+    left: 356px;
+    background-color: #ffffff;
+    width: 585px;
+    height: 550px;
+    margin-top: 2px;
+    padding: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #000000;
+    
+}
+.projects{
+    position: absolute;
+    top: 715px;
+    left: 356px;
+    background-color: #ffffff;
+    width: 585px;
+    height: 550px;
+    margin-top: 2px;
+    padding: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #000000;
+    
+}
+.contact{
+    position: absolute;
+    top: 715px;
+    left: 953px;
+    background-color: #ffffff;
+    width: 585px;
+    height: 200px;
+    margin-top: 2px;
+    padding: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #000000;
+}
+.favorite{
+    position: absolute;
+    top: 927px;
+    left: 953px;
+    background-color: #ffffff;
+    width: 585px;
+    height: 339px;  
+    margin-top: 2px;
+    padding: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #000000;
+}
+/* Headings */
+h1{
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 1px 1px #000000;
+    font-size: 2.5em;
+    text-transform: uppercase;
+
+}
+ h2 {
+    text-align: center;
+    color: #000000;
+    text-shadow: 2px 2px 4px #08080873;
+}
+
+/* Paragraphs */
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+    text-align: justify;
+    padding-top: 5px;
+    font-size: 1.2em;
+    text-indent: 15px;
+    color: #000000;
+}
+dl{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+    text-align: justify;
+    padding-top: -10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Icons */
+ul li:before {
+    content: "\f054"; /* Unicode for a FontAwesome icon */
+    font-family: FontAwesome;
+    padding-right: 8px;
+    color: #000000;
+}
+/* Links */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/* Lists */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-top: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+    padding: 15px;
+    color: #000000;
+    display: inline-block;
+    text-align: justify;
+}
+
+/* Tables */
+table{
+    display: inline-block;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+th{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    margin-top: -5px;
+    padding: 13px;
+    text-align: left;
+    border-bottom: 1px solid #c0bfbf;
+}
+td {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+    margin-top: -5px;
+    padding: 13px;
+    text-align: justify;
+    border-bottom: 1px solid #c0bfbf;
+}
+
+/* Text Alignment */
+#about, #skills, #projects, #contact {
+    text-align: left;
+}
+#about, #skills, #projects {
+    float: left;
+    width: 48%;
+    margin: 1%;
+}
+/* Clear floats */
+footer {
+    clear: both;
+}
+/* Images with max-width */
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* Navigation Bar */
+nav ul {
+    position: absolute;
+    top: 95px;
+    left: 356px;
+    size: 50px;
+    height: 40px;
+    width: 1185px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: #ffffff;
+    background-color: #000000;
+    overflow: hidden;
+    color: white;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    padding: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+/* Dropdown */
+nav ul li:hover .dropdown {
+    display: block;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #333;
+}
+
+.dropdown a {
+    display: block;
+    padding: 10px;
+}
+/* Image Gallery */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.gallery img {
+    width: 30%;
+    opacity: 0.8;
+}
+
+.gallery img:hover {
+    opacity: 1;
+}
+/* Image Sprite for Social Icons */
+.sprite {
+    width: 50px;
+    height: 50px;
+    background: url('sprite.png') no-repeat;
+}
+
+.sprite.facebook {
+    background-position: 0 0;
+}
+
+.sprite.twitter {
+    background-position: -50px 0;
+}
+
+.sprite.linkedin {
+    background-position: -100px 0;
+}
